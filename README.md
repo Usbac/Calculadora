@@ -17,10 +17,10 @@ Debido a algunas limitantes, como no aceptar números negativos o operadores con
 ## Conversión
 Para convertir una operación, se siguen unos pasos específicos pero muy simples. Se recorre la Operación Infija (izq. a der.) y se siguen estas reglas:
 
-* Si el elemento es un numero se guarda en la primera Pila.
-* Si el elemento es un operador se guarda en la segunda Pila.
-* Si el elemento es un paréntesis cerrado ‘)’ se desapilan los elementos de la segunda Pila y se apilan en la primera hasta encontrar el paréntesis abierto ‘(’ (pero evitando introducir este).
-* Si el elemento es un numero con mayor jerarquia que el ultimo numero de la segunda Pila, se desapilan los elementos de la segunda Pila y se apilan en la primera, hasta que su ultimo elemento tenga menor o igual jerarquia al elemento actual, y posteriormente de apila en la segunda Pila el elemento pendiente.
+1. Si el elemento es un numero se guarda en la primera Pila.
+1. Si el elemento es un operador se guarda en la segunda Pila.
+1. Si el elemento es un paréntesis cerrado ‘)’ se desapilan los elementos de la segunda Pila y se apilan en la primera hasta encontrar el paréntesis abierto ‘(’ (pero evitando introducir este).
+1. Si el elemento es un numero con mayor jerarquia que el ultimo numero de la segunda Pila, se desapilan los elementos de la segunda Pila y se apilan en la primera, hasta que su ultimo elemento tenga menor o igual jerarquia al elemento actual, y posteriormente de apila en la segunda Pila el elemento pendiente.
 
 ## Características
 
